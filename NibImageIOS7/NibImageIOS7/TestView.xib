@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2048" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="320"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="name.contain.dot" translatesAutoresizingMaskIntoConstraints="NO" id="Ma2-TT-H2d">
+                    <rect key="frame" x="0.0" y="0.0" width="39" height="39"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="normal_name" translatesAutoresizingMaskIntoConstraints="NO" id="gKs-Xk-eYL">
+                    <rect key="frame" x="281" y="0.0" width="39" height="39"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="gKs-Xk-eYL" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="F8b-Na-qQp"/>
+                <constraint firstItem="Ma2-TT-H2d" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Hc2-pP-sXd"/>
+                <constraint firstItem="Ma2-TT-H2d" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Zo3-HS-QjN"/>
+                <constraint firstAttribute="trailing" secondItem="gKs-Xk-eYL" secondAttribute="trailing" id="hf7-Jd-xq5"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="name.contain.dot" width="39" height="39"/>
+        <image name="normal_name" width="39" height="39"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
